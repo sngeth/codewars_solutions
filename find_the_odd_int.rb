@@ -3,9 +3,6 @@ require 'minitest/autorun'
 
 # Given an array, find the int that appears an odd number of times.
 # There will always be only one integer that appears an odd number of times.
-def find_the_odd_int(arr)
-end
-
 class FindOddInt
   def find(arr)
     counts = get_counts(arr)
